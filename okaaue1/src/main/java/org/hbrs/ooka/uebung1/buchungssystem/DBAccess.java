@@ -20,7 +20,6 @@ public class DBAccess {
     }
 
     public static void main(String[] args) {
-		/*
 		DBAccess acc = new DBAccess();
 		System.out.println("Mini-Tutorial der Klasse DBAccess" );
 		System.out.println("c/o Sascha Alda, 2019 - 2024" );
@@ -46,26 +45,6 @@ public class DBAccess {
 
 		// TODO Auto-generated method stub
 		acc.closeConnection();
-		*/
-
-        Cache cache = new Cache();
-        HotelSearchProxy hotelSearchProxy = new HotelSearchProxy(cache);
-        hotelSearchProxy.openSession();
-        // -----------------------------
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("WinzerHotel"));
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("WinzerHotel"));
-        for (Hotel hotel : hotelSearchProxy.getAllHotels()) {
-            hotelSearchProxy.printHotel(hotel);
-        }
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("Riu Plaza"));
-        cache.clear();
-        // cache.remove("Riu Plaza");
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("Riu Plaza"));
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("Riu Plaza"));
-        hotelSearchProxy.printHotel(hotelSearchProxy.getHotelByName("Peter Lustig"));
-
-        // -----------------------------
-        hotelSearchProxy.closeSession();
     }
 
 

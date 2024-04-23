@@ -8,8 +8,6 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.idea/artifacts/
-META-INF/
 *.iws
 *.iml
 *.ipr
@@ -38,3 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+META-INF/

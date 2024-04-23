@@ -1,3 +1,4 @@
+
 # Übungsblatt Nr. 1
 
 ## Aufgabe 1
@@ -23,7 +24,6 @@ Zusätzlich besitzt der Proxy eine Instanz der Subjekt-Klasse und agiert auf die
 
 Benötigte bzw. angebotene Interfaces können injiziert bzw. entnommen werden, indem nach dem Proxy-Design-Pattern die Interfaces sowohl vom Subject als auch vom Proxy überschrieben werden.
 Anschließend könnte der Proxy direkt instanziiert und über die implementierten Methoden verwendet werden.
-
 ---
 
 > ### FA0
